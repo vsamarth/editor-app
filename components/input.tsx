@@ -21,7 +21,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           className={twMerge(
             'flex h-11 w-full rounded-md',
             'border border-slate-300 bg-transparent',
-            'py-2 px-3 text-sm placeholder:text-slate-400',
+            'py-2 px-3 text-slate-700 placeholder:text-slate-400',
             'focus:outline-none focus:ring-1  focus:ring-slate-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 ',
             isError &&
               'border-red-600 placeholder:text-red-500 bg-red-50 focus:ring-red-400',
